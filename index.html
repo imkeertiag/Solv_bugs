@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Boot one</title>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- styling.css -->
+    <style>
+      ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    font-weight: bold;
+    font-size: medium !important;
+    }
+    #body{
+      background-image:url(back2.jpg);
+      background-size: 100%;
+      background-attachment:scroll;
+    }
+    /* #heading{ 
+       font-family:; 
+    } */
+    </style>
+  </head>
+
+  <body id="body">
+
+   <!-- navbar -->
+   <!-- navbar light se color of heading black hota hai -->
+   <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgba(248, 253, 254, 0.945) ;"  >
+    <div class="container-fluid">
+      <a class="navbar-brand " style="font-family: monospace;" href="#"><img src="coding-logo.jpg" width="60px" height="60px" alt="" class="src">Solv-Bugs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="##">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">DSA</a></li>
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">App Development</a></li>
+              <li><a class="dropdown-item" href="#">CS Subjects</a></li>
+              <li><a class="dropdown-item" href="#">AI & ML</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Help Others</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="##">Get Job</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- slider -->
+  <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"> -->
+  <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="image5.jpg" class="d-block w-100 justify-content-evenly" height="450px"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image3.png" class="d-block w-100" height="450px"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image10.png" class="d-block w-100" height="450px"   alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image2.png" class="d-block w-100" height="450px"   alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- container -->
+  <div class="container-fluid">
+    <!-- tagline  -->
+    <div class="row">
+      <div class="col-12">
+        <h3 id="heading" class="display-6 text-center mt-5 mb-4">All you need is to study bcoz ,,<br> "We are here to set a perfect ROADMAP for your goal".</h3>
+      </div>
+    </div>
+    <!-- features -->
+    <div class="row justify-content-evenly pt-3 pb-3">
+      <div class="col-md-3 text-center mt-5 " style="background-color: rgba(255, 228, 196, 0.76); border-radius: 10px;">
+        <h1><i class="bi bi-journal-code"></i></h1>
+        <h5 class="text-center">Effective Notes</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio labore, voluptatibus, est repellat ducimus nihil sed eos dolorem quia praesentium non, deserunt possimus cupiditate. Adipisci atque ipsa illo earum eos.
+
+        </p>
+      </div>
+      <div class="col-md-3 text-center mt-5" style="background-color: rgba(255, 228, 196, 0.76) ;border-radius: 10px;">
+        <h1><i class="bi bi-alarm-fill"></i></h1>
+        <h5 class="text-center">Time Saving</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti odio ipsum magni doloribus, similique culpa recusandae vel in sit officia repellat atque explicabo perspiciatis aperiam consequatur quisquam accusamus nob, maiores facere voluptate?
+
+        </p> 
+      </div>
+      <div class="col-md-3 text-center mt-5" style="background-color: rgba(255, 228, 196, 0.76); border-radius: 10px;">
+        <h1><i class="bi bi-award-fill"></i></h1>
+        <h5 class="text-center">Get Certificates</h5>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos quidem, magni suscipit molestias optio ad laborum corporis quos nam maxime illo nemo aliquam repellendus mollitia facilis consequuntur. Autem fugit quasi unde optio.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- line break -->
+    <hr>
+
+    <!-- instructor -->
+    <div class="row justify-content-evenly text-center">
+      <div class="col-lg-5 col-sm-12 mt-4 mb-4 ">
+        <img class="img-fluid" src="instruct.png" width="500px" height="500px" alt="" style="border-radius: 15px;">
+      </div>
+      <div class="col-lg-5 col-sm-12" >
+        <h3 id="heading" class="display-6 text-center mt-4 mb-2" style="font-weight: 400;">Our Instructors</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquam sed illo distinctio, assumenda quasi rem tempora? Numquam a cupiditate maiores qui rerum veniam itaque necessitatibus error rem nostrum animi totam libero, eius doloremque corporis reiciendis quisquam atque provident nemo. Illo neque ipsum nobis molestiae cum error possimus magni, mollitia fugit accusamus, animi ab dolorum numquam dolore distinctio eos assumenda ut sint officiis? Laboriosam, officia illo officiis architecto voluptas itaque dolorem nostrum qui ad? Perferendis harum praesentium nobis delectus explicabo ullam doloribus modi molestias itaque suscipit iusto, nulla incidunt fuga eligendi sequi eveniet eius, sint illo quae earum ab! Deleniti, excepturi quae. Modi unde autem esse quod error accusantium dignissimos, provident id consectetur. </p>
+      </div>
+    </div>
+    <hr>
+
+    <!-- recent reviews 1 -->
+    <div class="row justify-content-evenly text-center">
+      
+      <div class="col-xl-5 col-sm-12" >
+        <h3 id="heading" class="display-6 text-center mt-4 mb-2">Students find's Group Learning a better option! </h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquam sed illo distinctio, assumenda quasi rem tempora? Numquam a cupiditate maiores qui rerum veniam itaque necessitatibus error rem nostrum animi totam libero, eius doloremque corporis reiciendis quisquam atque provident nemo. Illo neque ipsum nobis molestiae cum error possimus magni, mollitia fugit accusamus, animi ab dolorum numquam dolore distinctio eos assumenda ut sint officiis? Laboriosam, officia illo officiis architecto voluptas itaque dolorem nostrum qui ad? Perferendis harum praesentium nobis delectus explicabo ullam doloribus modi molestias itaque suscipit iusto, nulla incidunt fuga eligendi sequi eveniet eius, sint illo quae earum ab! Deleniti, excepturi quae. Modi unde autem esse quod error accusantium dignissimos, provident id consectetur. </p>
+      </div>
+
+      <div class="col-xl-5 col-sm-12 mt-4 mb-4 ">
+        <img class="img-fluid" src="group.png" width="500px" height="500px" alt="" style="border-radius: 15px;">
+      </div>
+    </div>
+    <hr>
+    
+<!-- contact us -->
+
+<div class="row justify-content-evenly">
+
+  <div class="col-md-5 col-sm-12" style="background-color: rgba(145, 147, 151, 0.619);">
+    <h3 class="display-6 text-center mt-4 mb-2">Contact Us</h3> 
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+        <div id="nameHelp" class="form-text">We'll never share your details with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success text-center">Submit</button>
+    </form>
+  </div>
+
+<!--Courses-->
+<div class="col-md-5 col-sm-12 justify-content-center">
+  <div class="card mt-4 mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="learningcomm.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mt-4 mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="image4.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+<hr>
+
+<!-- faqs -->
+<div class="row justify-content-evenly">
+  <div class="col-md-10">
+    <h3 id="heading" class="display-6 text-center mt-4 mb-4" >FAQS</h3>
+
+    <div class="accordion accordion-flush border mb-4" id="accordionFlushExample" >
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What is the content ratings of the Courses ?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            How will you get into Placements ?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Is the content free of cost ?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="row justify-content-evenly bg-dark text-white mt-4">
+  <div class="col-md-3 mt-4 mb-2"><p>
+    <i class="bi bi-link-45deg"></i> Web Development Courses<br>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores cum vel recusandae, incidunt fugiat minus ex, laudantium placeat necessitatibus voluptatibus deserunt expedita quas? Exercitationem, natus.</p></div>
+  <div class="col-md-3 mt-4 mb-2"><h4 id="heading" class="">Connect With Us</h4><p>
+    <i class="bi bi-telephone"></i> 9632587410 <br> 
+    <i class="bi bi-instagram"></i> Instagram <br>
+    <i class="bi bi-twitter"></i> Twitter <br>
+    <i class="bi bi-github"></i> Github <br>
+    <i class="bi bi-linkedin"></i> Linked In <br>
+  </p></div>
+  <div class="col-md-3 mt-4 mb-2"><p>
+    <i class="bi bi-link-45deg"></i> App Development Courses<br>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere fugit quo dolores possimus minima adipisci harum, perspiciatis nemo rerum tempore ipsam, id vero soluta, illum rem neque maiores sint cum!
+  </p></div>
+
+</div>
+<!-- copyrights -->
+<div class="row text-center">
+  <div class="col-12" style="background-color: rgba(90, 208, 247, 0.852); font-weight: 500;">
+    <p class="mt-2 mb-2">Copyright <i class="bi bi-c-circle"></i> 2023 Solv-Bugs. All rights reserved.</p>
+  </div>
+</div>
+
+
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
